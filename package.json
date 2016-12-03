@@ -1,0 +1,44 @@
+{
+  "name": "angular2-bootstrap-ig",
+  "version": "1.0.0",
+  "description": "A small image gallery web application.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorjala/angular2-bootstrap-ig.git"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node index.js",
+    "test": "gulp"
+  },
+  "author": "lorjala@student.oulu.fi",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "config": "^1.24.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.14.0",
+    "express-winston": "^2.1.0",
+    "helmet": "^3.1.0",
+    "mongoose": "^4.7.1",
+    "winston": "^2.3.0",
+    "winston-daily-rotate-file": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "gulp": "^3.9.1",
+    "gulp-express": "^0.3.5",
+    "gulp-live-server": "0.0.30",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.2.0",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "cfg": "production",
+  "host": "0.0.0.0",
+  "port": 80,
+  "db": "mongodb://localhost/a2big_prod",
+  "level": "info"
+}
